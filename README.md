@@ -43,6 +43,7 @@
    * `radio`
    * `checkbox`
    * `date`
+   * `image`
    * `color`
    * `number`
    * `range`
