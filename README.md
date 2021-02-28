@@ -38,26 +38,26 @@ Noutro ou outros elementos `fieldset` faça um quiz sobre a cidade explorando de
 `input`, `select`, `textarea`, `datalist`, `label`, `fieldset`, `output`.
 
 Deverá usar os seguintes tipos de input (atributos `type`):
-    * text
-    * radio
-    * checkbox
-    * date
-    * color
-    * number
-    * range
+   * `text`
+   * `radio`
+   * `checkbox`
+   * `date`
+   * `color`
+   * `number`
+   * `range`
 
 Deverá garantir que utiliza pelo menos uma vez cada um dos seguintes atributos de input:
-    * `value`
-    * `placeholder`
-    * `autocomplete`
-    * `size`
-    * `maxlength`
-    * `form`
-    * `multiple`
-    * `autofocus`
-    * `required``
-    * `step`
-    * `output`
+   * `value`
+   * `placeholder`
+   * `autocomplete`
+   * `size`
+   * `maxlength`
+   * `form`
+   * `multiple`
+   * `autofocus`
+   * `required``
+   * `step`
+   * `output`
   
 # 5. Página Introdução
 
