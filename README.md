@@ -23,21 +23,20 @@
 2. Crie a pasta `lab3`. 
 
 3. Copie os conteúdos do `lab2` para a pasta `lab3`, que servirão de base para este laboratório.
+4. Neste laboratório irá criar mais duas páginas. Atualize o menu de todas as páginas HTML existentes com dois novos links: Quizz (na página `quizz.html`) e Comentários (na página `comentarios.html`). Coloque-os antes da página Home.
 
-# 2. Nova página Quizz
+# 2. Nova página quizz
 
-1. Crie uma nova página HTML `quizz.html`
-2. Replique a informação base das outras páginas. Utilize o mesmo cabeçalho (elemento `h1` com o nome da cidade, imagem da cidade e menu) que as restantes páginas.
-3. Atualize todas as páginas HTML, incluindo agora mais um item no menu, Quizz (antes de Home), com hiperlink para a página `quizz.html`.
-4. crie um formulário com um quizz sobre a cidade. Deverá ter uma primeira área (elemento `fieldset`) para inserção de dados pessoais:
+1. Crie uma nova página HTML `quizz.html` que tenha o mesmo cabeçalho das restantes.
+2. Esta página irá ter um formulário com um quizz sobre a cidade. Deverá fazer perguntas de vários tipos sobre a cidade, o formulário sendo enviado para um endereço de email (quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta). 
+3. Deverá ter uma primeira área (elemento `fieldset`) para inserção de dados pessoais:
    * Nome
    * apelido
    * email
 
-Noutro ou outros elementos `fieldset` faça um quiz sobre a cidade explorando de forma imaginativa os elementos 
-`input`, `select`, `textarea`, `datalist`, `label`, `fieldset`, `output`.
+4. Noutro(s) elemento(s) `fieldset` crie um quiz sobre a cidade, explorando de forma imaginativa os elementos `input`, `select`, `textarea`, `datalist`, `label`, `fieldset`, `output`.
 
-Deverá usar os seguintes tipos de input (atributos `type`):
+* Deverá usar os seguintes tipos de input (atributos `type`):
    * `text`
    * `radio`
    * `checkbox`
@@ -46,7 +45,7 @@ Deverá usar os seguintes tipos de input (atributos `type`):
    * `number`
    * `range`
 
-Deverá garantir que utiliza pelo menos uma vez cada um dos seguintes atributos de input:
+* Deverá garantir que utiliza pelo menos uma vez cada um dos seguintes atributos de input:
    * `value`
    * `placeholder`
    * `autocomplete`
@@ -58,34 +57,42 @@ Deverá garantir que utiliza pelo menos uma vez cada um dos seguintes atributos 
    * `required``
    * `step`
    * `output`
-  
-# 5. Página Introdução
 
-Na pagina `index.html` insira, no body, por debaixo do menu:
-2. Um elemento `h3` com a palavra Introdução.
-3. um parágrafo sobre esta cidade.
-4. Pesquise na Internet por [carateres especiais UTF-8](https://www.w3schools.com/charsets/ref_html_utf8.asp) assim como por emojis na [W3Schools](https://www.w3schools.com/charsets/ref_emoji.asp) e na [emojipedia](https://emojipedia.org/): 
-    1. Conte a seguir uma pequena história apenas com emojis 😉, sobre a :cityscape: que escolheu. 
-    2. Coloque uma barra horizontal de separação `hr` 
-    3. Conte a história por palavras suas. Use etiquetas de estilo e organizacionais para formatar cada palavra diferentemente.
-    4. Coloque uma barra horizontal de separação `hr` 
-    5. Conte a história por palavras suas sem formatação. 
-5. De seguida num novo parágrafo apresente o seu website, criando uma lista não numerada onde apresenta em poucas palavras cada uma das páginas do seu website, incluindo um link para essa página numa das palavras.
-6. Crie de seguida uma [wordcloud](https://www.wordclouds.com/) com base em palavras que associa à cidade. Adicione as palaras em "wordlist" (apague primeiro as existentes). Ponha peso 10 no nome da cidade para que esta fique com maior destaque. Pode escolher uma forma (shape), fonte (font), cores (use um fundo branco). Descarregue a imagem, e formate-a com o Paint por forma a que tenha largura de 300px como a fotografia da cidade. Isira-a por debaixo da lista.
+5. Inclua um elemento do tipo `submit` para submeter o seu formulário:
+* No atributo `method`especifique o método `post`
+* o atributo `action` deverá ter como valor um endero de email. Assim, receberá o quizz no seu email.
+* Quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta.
 
-# 6. Página Localização
+# 3. Página comentários
 
-Na página `local.html`:
-1. Um elemento `h3` com a palavra Localização.
-2. Insira um pequeno parágrafo que descreva a localização da ciadade (continente, país), assim como algumas informações geográficas destas.
-3.	Insira por baixo um mapa do Google Maps do lugar. Para tal: 
-    a. procure o lugar no website www.google.pt/maps
-    b. Faça um zoom que considera apropriado
-    c. clique em “partilhar” e na opção “incorporar mapa” 
-    d. Selecione tamanho pequeno
-    e. copie o código HTML resultante, `<iframe src=… >`
-    f. insira esse código HTML na sua pagina HTML
-    g. acerte a dimensão da janela.
+1. Crie uma nova página HTML `comentarios.html` que tenha o mesmo cabeçalho das restantes.
+2. Esta página servirá para recolher opiniões sobre o seu website assim como ideias de coisas a melhorar.
+3. Crie um formulário para recolher opiniões sobre o seu website, avaliando 10 critérios, tais como: conteúdo, originalidade, clareza, usabilidade. Para tal, utilize elementos `input` com atributos `range`, `checkbox` e `radio`. Deverá igualmente ter um elemento `textarea` que permita submeter sugestões de melhoria.
+4. Inclua um elemento escondido que identifica que se trata da opinião relativa ao website do laboratório 3. De facto, os laboratórios seguintes trarão várias melhorias ao seu website que resultarãm em comentários ainda melhores. 
+5. Quando desenvolver o *back-end*, será capaz de processar estes dados introduzidos por
+utilizadores e será capaz de fazer uma análise do seu website assim como uma visão crítica deste. 
+
+# 4. Desenhos SVG
+
+1. Crie um SVG embutido no HTML com a wordcloud:
+* inclua a wordcloud que criou no Laboratório 2 (com o elemento `image`). 
+* Sobreponha na imagem da wordcloud elementos transparentes sobre agumas palavras, com hiperlinks para páginas do seu website (abra a imagem no Paint para extrair as coordenadas dos vértices dos poçígonos sobre cada palavra). 
+* Deverá usar uma área default que cubra todo a imagem (restantes palavras para as quais não inseriu links específicos), e que remete para a introdução do seu website. Garanta que esta se encontra "por baixo" dos restantes elementos.
+
+2. Crie um menu usando um SVG embutido no HTML ao estilo de uma wordcloud:
+* aplique efeitos a cada uma das palavras rodadas ou encurvadas, diferentes tamanhos, formas, cores, etc.
+* cada palavra deverá conter um elemento `animate` que deverá especificar como muda no tempo um determinado atributo. Explore o atributo `begin` também.
+* cada palavra deverá ter um hiperlink para a respetiva página.
+* coloque esta imagem no final de cada página do seu website.
+
+3. Faça um desenho criativo embutido no HTML utilizando a maior diversidade de formas que consiga e utilizando os elementos animate, animateMotion e animateTransform.
+
+4. utilize um editor SVG (por exemplo (Boxy-svg)[https://boxy-svg.com/app]) para criar um ficheiro SVG, explorando as ferramentas disponíveis.
+
+5. Na página `local.html` insira um SVG com o mapa SVG da localidade escolhida:
+* procure um mapa SVG da sua cidade (aqui)[https://commons.wikimedia.org/wiki/Category:SVG_maps_of_freguesias_in_Portugal] ou na Wikimedia Commons (se a cidade não for em Portugal).
+* insira no mapa pontos de interesse, objetos clicáveis que abram imagens sobre essa zona.
+* deverá criar um objeto iframe por baixo do mapa, e utilize como target o nome da iframe de forma a que a imagem abra dentro da iframe.
 
 
 # 5. Página Multimédia
