@@ -37,9 +37,7 @@
    * apelido
    * email
 
-4. Noutro(s) elemento(s) `fieldset` crie um quiz sobre a cidade, explorando de forma imaginativa os elementos `input`, `select`, `textarea`, `datalist`, `label`, `fieldset`, `output`.
-
-* Deverá usar os seguintes tipos de input (atributos `type`):
+4. Noutro(s) elemento(s) `fieldset` crie um quiz sobre a cidade, explorando de forma imaginativa os elementos `input`, `select`, `textarea`, `datalist`, `label`, `fieldset`, `output`. * Deverá usar todos os seguintes tipos de input (atributos `type`):
    * `text`
    * `radio`
    * `checkbox`
@@ -48,7 +46,7 @@
    * `number`
    * `range`
 
-* Deverá garantir que utiliza pelo menos uma vez cada um dos seguintes atributos de input:
+Deverá garantir que utiliza pelo menos uma vez cada um dos seguintes atributos de input:
    * `value`
    * `placeholder`
    * `autocomplete`
@@ -57,7 +55,7 @@
    * `form`
    * `multiple`
    * `autofocus`
-   * `required``
+   * `required`
    * `step`
    * `output`
 
