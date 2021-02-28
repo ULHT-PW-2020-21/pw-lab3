@@ -30,9 +30,9 @@
 2. Replique a informação base das outras páginas. Utilize o mesmo cabeçalho (elemento `h1` com o nome da cidade, imagem da cidade e menu) que as restantes páginas.
 3. Atualize todas as páginas HTML, incluindo agora mais um item no menu, Quizz (antes de Home), com hiperlink para a página `quizz.html`.
 4. crie um formulário com um quizz sobre a cidade. Deverá ter uma primeira área (elemento `fieldset`) para inserção de dados pessoais:
-    * Nome
-    * apelido
-    * email
+   * Nome
+   * apelido
+   * email
 
 Noutro ou outros elementos `fieldset` faça um quiz sobre a cidade explorando de forma imaginativa os elementos 
 `input`, `select`, `textarea`, `datalist`, `label`, `fieldset`, `output`.
