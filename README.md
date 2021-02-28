@@ -71,9 +71,18 @@
 1. Crie uma nova página HTML `comentarios.html` que tenha o mesmo cabeçalho das restantes.
 2. Insira um elemento h3 com a palavra Comentários.
 3. Esta página servirá para recolher opiniões sobre o seu website assim como ideias de coisas a melhorar.
-4. Crie um formulário para recolher opiniões sobre o seu website, avaliando 10 critérios, tais como: conteúdo, originalidade, clareza, usabilidade. Para tal, utilize elementos `input` com atributos `range`, `checkbox` e `radio`. Deverá igualmente ter um elemento `textarea` que permita submeter sugestões de melhoria.
-5. Inclua um elemento escondido que identifica que se trata da opinião relativa ao website do laboratório 3. De facto, os laboratórios seguintes trarão várias melhorias ao seu website que resultarãm em comentários ainda melhores. 
-6. Quando desenvolver o *back-end*, será capaz de processar estes dados introduzidos por
+4. Crie um formulário para recolher opiniões sobre o seu website, avaliando 10 critérios. Listam-se em baixo alguns padrões intelectuais do pensamento crítico: 
+    * clareza (compreensível, em que o significado pode ser identificado sem que haja confusão ou ambiguidade.)
+    * rigor (livre de erros)
+    * precisão (exato, segundo o nível necessário do pormenor)
+    * profundidade (contém complexidades e múltiplas inter-relações)
+    * amplitude (que abrange diferentes aspectos, pontos de vista, pespectivas)
+    * lógica (em que as partes fazem sentido num todo, sem contradições: faz sentido no conjunto, provém de evidências)
+    * significância (focado no importante, não trivial)
+    * originalidade (criativo e original)
+    Para tal, utilize elementos `input` com atributos `range`, `checkbox` e `radio`. Deverá igualmente ter um elemento `textarea` que permita submeter sugestões de melhoria.
+6. Inclua um elemento escondido que identifica que se trata da opinião relativa ao website do laboratório 3. De facto, os laboratórios seguintes trarão várias melhorias ao seu website que resultarãm em comentários ainda melhores. 
+7. Quando desenvolver o *back-end*, será capaz de processar estes dados introduzidos por
 utilizadores e será capaz de fazer uma análise do seu website assim como uma visão crítica deste. 
 
 # 4. Desenhos SVG
@@ -89,9 +98,9 @@ utilizadores e será capaz de fazer uma análise do seu website assim como uma v
    * cada palavra deverá ter um hiperlink para a respetiva página.
    * coloque esta imagem no final de cada página do seu website.
 
-3. Faça um desenho criativo embutido no HTML utilizando a maior diversidade de formas que consiga e utilizando os elementos animate, animateMotion e animateTransform.
+3. Inspirado nalgum aspecto da cidade que escolheu, faça um desenho criativo embutido no HTML utilizando a maior diversidade de formas que consiga e utilizando os elementos animate, animateMotion e animateTransform. Coloque-o na secção Multimedia, especificando numa legenda os aspectos que o inspiraram para tal.
 
-4. utilize um editor SVG (por exemplo (Boxy-svg)[https://boxy-svg.com/app]) para criar um ficheiro SVG, explorando as ferramentas disponíveis.
+4. Inspirado nalgum aspecto da cidade que escolheu, utilize um editor SVG (por exemplo (Boxy-svg)[https://boxy-svg.com/app]) para criar um ficheiro SVG, explorando as ferramentas disponíveis. Coloque-o na secção Multimedia, especificando numa legenda os aspectos que o inspiraram para tal.
 
 5. Na página `local.html` insira um SVG com o mapa SVG da localidade escolhida:
     * procure um mapa SVG da sua cidade (aqui)[https://commons.wikimedia.org/wiki/Category:SVG_maps_of_freguesias_in_Portugal] ou na Wikimedia Commons (se a cidade não for em Portugal).
@@ -108,9 +117,13 @@ Na página de multimedia altere também a forma como abrem as fotografias grande
 3. no target do hiperlink de cada imagem pequena especifique o nome da iframe.
 4. quando clicar numa imagem pequena, a foto grande abrirá dentro da iframe. 
 
-# 6. Submissão
+# 6. Referências
 
-1. Antes de o submeter, verifique que todos os links funcionam devidamente.
+Quanto maior for o número de referências no seu website para outros websites, maior a relevância que o website ganhará assim como a visibilidade nos motores de busca. Coloque uma referência no final de um parágrafo de texto que tenha extraído de uma fonte online, assim como na legenda de uma fotografia. Pode usar a notação `[1]` colocando um hiperlink para a página de onde foi extraída informação. 
+
+# 7. Submissão
+
+1. Verifique que todos os links do seu website funcionam devidamente.
 2. Carregue a sua pasta no seu repositório Github através dos seguintes passos:
     1.  abra o processador de comandos e posicione-se dentro da pasta do seu repositório (`pw-labs-nomeapelido-numero`).
     2.  escreva as seguintes instruções:
@@ -118,7 +131,8 @@ Na página de multimedia altere também a forma como abrem as fotografias grande
         * `git commit –m "submissão laboratório 3"`
         * `git push`
 3. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1). Deverá ir ao Heroku e, em Deploy, fazer deploy branch, de forma a colocar disponível na cloud os novos conteúdos criados. 
-4. No seguinte [ficheiro](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view) garanta que esteja:
+4. Verifique que o seu website online fucnioa corretamente, mostra todas as imagens e os hiperlinks funcionam devidamente.
+5. No seguinte [ficheiro](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view) garanta que esteja:
     * link da sua aplicação Heroku
     * link do seu repositório privado no GitHub
     * adicione os docentes de PW como membros do seu repositório, que têm como usernames no GitHub: luciostuder, logdarkmatter, rfgsantos.
