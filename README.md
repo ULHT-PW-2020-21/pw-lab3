@@ -99,7 +99,7 @@ utilizadores e será capaz de fazer uma análise do seu website assim como uma v
     * deverá criar um objeto iframe por baixo do mapa com um nome (`name`)
     * espicifique como target de cada hiperlink do mapa o nome da iframe, de forma a que a imagem abra dentro da iframe.
 
-# 6. Multimedia
+# 5. Multimedia
 
 Na página de multimedia altere também a forma como abrem as fotografias grandes.
 1. Veja o [slide](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.1-html.pdf?time=1614518293580) 50 da aula sobre [html](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.1-html.pdf?time=1614518293580).
@@ -107,7 +107,7 @@ Na página de multimedia altere também a forma como abrem as fotografias grande
 3. no target do hiperlink de cada imagem pequena especifique o nome da iframe.
 4. quando clicar numa imagem pequena, a foto grande abrirá dentro da iframe. 
 
-# 5. Submissão
+# 6. Submissão
 
 1. Antes de o submeter, verifique que todos os links funcionam devidamente.
 2. Carregue a sua pasta no seu repositório Github através dos seguintes passos:
