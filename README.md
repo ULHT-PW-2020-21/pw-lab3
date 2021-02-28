@@ -1,6 +1,6 @@
 **UNIVERSIDADE LUSÓFONA DE HUMANIDADES E TECNOLOGIAS**
  
-# Programação Web - Laboratório 3: Incluindo formulários e imagens SVG no seu website  
+# Programação Web - Laboratório 3: inclusão de formulários e imagens SVG no meu website  
 
 ## Objetivo
 * Neste laboratório estenderá o website criado no Laboratório 2, incluindo formulários e imanges SVG.
@@ -91,74 +91,24 @@ utilizadores e será capaz de fazer uma análise do seu website assim como uma v
 
 5. Na página `local.html` insira um SVG com o mapa SVG da localidade escolhida:
 * procure um mapa SVG da sua cidade (aqui)[https://commons.wikimedia.org/wiki/Category:SVG_maps_of_freguesias_in_Portugal] ou na Wikimedia Commons (se a cidade não for em Portugal).
-* insira no mapa pontos de interesse, objetos clicáveis que abram imagens sobre essa zona.
-* deverá criar um objeto iframe por baixo do mapa, e utilize como target o nome da iframe de forma a que a imagem abra dentro da iframe.
-
-
-# 5. Página Multimédia
-
-Na página `multimedia.html`:
-1. Um elemento `h3` com a palavra Multimédia.
-2.	Insira um parágrafo que apresente duas fotografias que escolherá no Google por serem emblemáticas do lugar que escolheu.  	 	 
-3. Utilize a aplicação Paint ou Paint.Net para gravar duas versões de tamanhos diferentes de cada fotografia (os comandos Ctrl+W ou Ctrl+R permitem abrir um interface que permite configurar o tamanho das imagens, consoante a aplicação): 
-    1. Grande, de 800 pixels de largura. Altere o nome, incluindo _grande no fim (e.g., lisboa_grande.jpg).
-    2. Pequena, de 100 pixels de largura. Altere o nome, incluindo _pequena (e.g., lisboa_pequena.jpg).
-    3. Guarde as 4 fotografias na pasta `imagens`. 
-    4. Insira na página HTML as imagens de 100px de largura, cada uma dentro de um elemento `picture`, incluindo uma legenda descritiva da fotografia (`caption`).  Especifique o campo `alt`. Aninhe o elemento `img` dentro de um hiperlink `a`, com hiperligação para a fotografia grande correspondente. No hiperlink, especifique o atributo `target="_blank"`, para que a imagem abra numa nova janela de forma isolada (ficará de forma primária, mas para este laboratório é suficiente).
-4. Pesquise no Youtube um video sobre a cidade escolhida e insira-o na sua página recorrendo à opção "partilhar" e escolhendo "embeded".
-5.	Escolha um poema que de alguma forma associa ao lugar escolhido. Escreva, usando tamanhos diferentes, o título numa linha, o nome do poeta na seguinte, seguindo-se o poema, em itálico. Todo o texto deverá estar centrado. 
-
-
-# 6. Página Informações
-
-Na página `info.html`:
-1.	Um elemento `h3` com a palavra Informações.
-2. Crie uma frase a introduzir uma tabela de informações a compilar sobre a cidade.	
-3.	Crie uma tabela com dados à sua escolha sobre a cidade escolhida. Deverá ter pelo menos 3 colunas e 4 colunas. Uma sugestão é ir à wikipedia e extrair alguns elementos que aparecem numa tabela à direita. A terceira coluna pode consistir num elemento agrupador (por exemplo demografia, geografia, história, etc). Exemplo de tabela:
-
-    ![](lisboa-info.png)
-
-4.	Deve depois formatar esta tabela usando os seguintes atributos:
-    * pelo menos um atributo rowspan e um coslpan (o valor de cada um sendo maior que 1). 
-    * cellspacing,
-    * cellpadding, 
-    * bgcolor, 
-    * align, 
-    * border (use border="1"),
-    * formatação de colunas com colgroup, explorando os atributos existentes
+* insira no mapa pontos de interesse, objetos com hiperlinks que abram imagens sobre essa zona.
+* deverá criar um objeto iframe por baixo do mapa com um nome (`name`)
+* espicifique como target de cada hiperlink do mapa o nome da iframe, de forma a que a imagem abra dentro da iframe.
 
 # 7. Submissão
 
-A estrutura final da sua pasta `pw-labs-nomeapelido-numero` deverá ser como em baixo:
-```
-`pw-labs-nomeapelido-numero`
-+-- index.php
-+-- composer.json
-+-- index.html
-+-- lab1
-|   +-- index.html
-|   +-- report.html
-|   +-- pw.html
-|   +-- img
-    |   +-- wordcloud.png
-    |   +--  ...
-+-- lab2
-|   +-- index.html
-|   +-- info.html
-|   +-- local.html
-|   +-- multimedia.html
-|   +-- images
-    |   +--  ...
-```
-
-1. Antes de submeter, verifique que todos os links funcionam devidamente.
-2. Carregue a sua pasta no Github com as seguintes instruções: 
+1. Atualize o `index.html` do seu website, incluindo agora um link para o Laboratório 3.
+2. Antes de o submeter, verifique que todos os links funcionam devidamente.
+3. Carregue a sua pasta no seu repositório Github através dos seguintes passos:
     1.  abra o processador de comandos e posicione-se dentro da pasta do seu repositório (`pw-labs-nomeapelido-numero`).
     2.  escreva as seguintes instruções:
         * `git add *`
-        * `git commit –m "submissão laboratório 2"`
+        * `git commit –m "submissão laboratório 3"`
         * `git push`
-3. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1). Deverá ir ao Heroku e, em Deploy, fazer deploy branch, de forma a colocar disponível na cloud os novos conteúdos criados. 
-4. Garanta que o link da sua aplicação se encontra [aqui](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view). Inclua também o hiperlink do seu repositório privado no GitHub, e adicione os docentes de PW como membros, que têm como usernames no GitHub: luciostuder, logdarkmatter, rfgsantos. Finalize o laboratório antes da sua próxima aula prática, onde este será avaliado. 
+4. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1). Deverá ir ao Heroku e, em Deploy, fazer deploy branch, de forma a colocar disponível na cloud os novos conteúdos criados. 
+5. No seguinte [ficheiro](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view) garanta que esteja:
+* link da sua aplicação Heroku
+* link do seu repositório privado no GitHub
+* adicione os docentes de PW como membros do seu repositório, que têm como usernames no GitHub: luciostuder, logdarkmatter, rfgsantos.
 
 Esperamos que tenha gostado de aplicar os conhecimentos de HTML e de ter feito um website &#127760;!
