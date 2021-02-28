@@ -93,24 +93,24 @@ utilizadores e será capaz de fazer uma análise do seu website assim como uma v
 4. utilize um editor SVG (por exemplo (Boxy-svg)[https://boxy-svg.com/app]) para criar um ficheiro SVG, explorando as ferramentas disponíveis.
 
 5. Na página `local.html` insira um SVG com o mapa SVG da localidade escolhida:
-* procure um mapa SVG da sua cidade (aqui)[https://commons.wikimedia.org/wiki/Category:SVG_maps_of_freguesias_in_Portugal] ou na Wikimedia Commons (se a cidade não for em Portugal).
-* insira no mapa pontos de interesse, objetos com hiperlinks que abram imagens sobre essa zona.
-* deverá criar um objeto iframe por baixo do mapa com um nome (`name`)
-* espicifique como target de cada hiperlink do mapa o nome da iframe, de forma a que a imagem abra dentro da iframe.
+    * procure um mapa SVG da sua cidade (aqui)[https://commons.wikimedia.org/wiki/Category:SVG_maps_of_freguesias_in_Portugal] ou na Wikimedia Commons (se a cidade não for em Portugal).
+    * insira no mapa pontos de interesse, objetos com hiperlinks que abram imagens sobre essa zona.
+    * deverá criar um objeto iframe por baixo do mapa com um nome (`name`)
+    * espicifique como target de cada hiperlink do mapa o nome da iframe, de forma a que a imagem abra dentro da iframe.
 
 # 5. Submissão
 
-2. Antes de o submeter, verifique que todos os links funcionam devidamente.
-3. Carregue a sua pasta no seu repositório Github através dos seguintes passos:
+1. Antes de o submeter, verifique que todos os links funcionam devidamente.
+2. Carregue a sua pasta no seu repositório Github através dos seguintes passos:
     1.  abra o processador de comandos e posicione-se dentro da pasta do seu repositório (`pw-labs-nomeapelido-numero`).
     2.  escreva as seguintes instruções:
         * `git add *`
         * `git commit –m "submissão laboratório 3"`
         * `git push`
-4. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1). Deverá ir ao Heroku e, em Deploy, fazer deploy branch, de forma a colocar disponível na cloud os novos conteúdos criados. 
-5. No seguinte [ficheiro](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view) garanta que esteja:
-* link da sua aplicação Heroku
-* link do seu repositório privado no GitHub
-* adicione os docentes de PW como membros do seu repositório, que têm como usernames no GitHub: luciostuder, logdarkmatter, rfgsantos.
+3. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1). Deverá ir ao Heroku e, em Deploy, fazer deploy branch, de forma a colocar disponível na cloud os novos conteúdos criados. 
+4. No seguinte [ficheiro](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view) garanta que esteja:
+    * link da sua aplicação Heroku
+    * link do seu repositório privado no GitHub
+    * adicione os docentes de PW como membros do seu repositório, que têm como usernames no GitHub: luciostuder, logdarkmatter, rfgsantos.
 
 Esperamos que tenha gostado de aplicar os conhecimentos de HTML e de ter feito um website &#127760;!
