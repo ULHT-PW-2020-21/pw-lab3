@@ -28,7 +28,7 @@
 4. Neste laboratório irá criar mais duas páginas. Atualize o menu de todas as páginas HTML existentes com dois novos links: Quizz (na página `quizz.html`) e Comentários (na página `comentarios.html`). Coloque-os antes da página Home.
 
 
-# 2. Página com quizz
+# 2. Página com Quizz
 
 1. Crie uma nova página HTML `quizz.html` que tenha o mesmo cabeçalho das restantes.
 2. Esta página irá ter um formulário com um quizz sobre a cidade. Deverá fazer perguntas de vários tipos sobre a cidade, o formulário sendo enviado para um endereço de email (quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta). 
