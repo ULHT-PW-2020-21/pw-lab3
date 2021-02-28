@@ -25,7 +25,7 @@
 3. Copie os conteúdos do `lab2` para a pasta `lab3`, que servirão de base para este laboratório.
 4. Neste laboratório irá criar mais duas páginas. Atualize o menu de todas as páginas HTML existentes com dois novos links: Quizz (na página `quizz.html`) e Comentários (na página `comentarios.html`). Coloque-os antes da página Home.
 
-# 2. Nova página quizz
+# 2. Página com quizz
 
 1. Crie uma nova página HTML `quizz.html` que tenha o mesmo cabeçalho das restantes.
 2. Esta página irá ter um formulário com um quizz sobre a cidade. Deverá fazer perguntas de vários tipos sobre a cidade, o formulário sendo enviado para um endereço de email (quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta). 
@@ -63,7 +63,7 @@
 * o atributo `action` deverá ter como valor um endero de email. Assim, receberá o quizz no seu email.
 * Quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta.
 
-# 3. Página comentários
+# 3. Página Comentários
 
 1. Crie uma nova página HTML `comentarios.html` que tenha o mesmo cabeçalho das restantes.
 2. Esta página servirá para recolher opiniões sobre o seu website assim como ideias de coisas a melhorar.
@@ -95,7 +95,7 @@ utilizadores e será capaz de fazer uma análise do seu website assim como uma v
 * deverá criar um objeto iframe por baixo do mapa com um nome (`name`)
 * espicifique como target de cada hiperlink do mapa o nome da iframe, de forma a que a imagem abra dentro da iframe.
 
-# 7. Submissão
+# 5. Submissão
 
 1. Atualize o `index.html` do seu website, incluindo agora um link para o Laboratório 3.
 2. Antes de o submeter, verifique que todos os links funcionam devidamente.
