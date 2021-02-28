@@ -46,7 +46,7 @@
    * `number`
    * `range`
 
-Deverá garantir que utiliza pelo menos uma vez cada um dos seguintes atributos de input:
+5. Na totalidade dos elementos que utilizar deverá garantir que utiliza pelo menos uma vez cada um dos seguintes atributos de input:
    * `value`
    * `placeholder`
    * `autocomplete`
