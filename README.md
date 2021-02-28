@@ -92,9 +92,18 @@ utilizadores e será capaz de fazer uma análise do seu website assim como uma v
 
 5. Na página `local.html` insira um SVG com o mapa SVG da localidade escolhida:
     * procure um mapa SVG da sua cidade (aqui)[https://commons.wikimedia.org/wiki/Category:SVG_maps_of_freguesias_in_Portugal] ou na Wikimedia Commons (se a cidade não for em Portugal).
-    * insira no mapa pontos de interesse, objetos com hiperlinks que abram imagens sobre essa zona.
+    * insira no mapa pontos de interesse, objetos com hiperlinks que abram imagens sobre essa zona. 
+    * Veja o [slide](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.1-html.pdf?time=1614518293580) 50 da aula sobre [html](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.1-html.pdf?time=1614518293580) que explia como fazer isso.
     * deverá criar um objeto iframe por baixo do mapa com um nome (`name`)
     * espicifique como target de cada hiperlink do mapa o nome da iframe, de forma a que a imagem abra dentro da iframe.
+
+# 6. Multimedia
+
+Na página de multimedia altere também a forma como abrem as fotografias grandes.
+1. Veja o [slide](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.1-html.pdf?time=1614518293580) 50 da aula sobre [html](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.1-html.pdf?time=1614518293580).
+2. insira um elemento iframe com a dimensão das fotografias (largura  800 pixels). Atribua um nome à iframe.
+3. no target do hiperlink de cada imagem pequena especifique o nome da iframe.
+4. quando clicar numa imagem pequena, a foto grande abrirá dentro da iframe. 
 
 # 5. Submissão
 
