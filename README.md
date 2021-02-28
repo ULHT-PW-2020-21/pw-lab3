@@ -3,13 +3,13 @@
 # Programação Web - Laboratório 3: inclusão de formulários e imagens SVG no meu website  
 
 ## Objetivo
-* Neste laboratório estenderá o website criado no Laboratório 2, incluindo formulários e imanges SVG.
+* Neste laboratório estenderá o website criado no Laboratório 2, incluindo formulários e imagens SVG.
 * Este laboratório deverá ser concluido antes da sua aula prática da semana de 8 de março. Este será avaliado nessa aula. 
 
 ## Recomendações
 * Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
 * Execute com atenção cada passo, certificando-se que implementa todos os detalhes. Contém todos os detalhes para a criação do website. 
-* Se tiver alguma dúvida, recorra ao [Moodle](https://secure.grupolusofona.pt/ulht/moodle/course/view.php?id=38119) que tem no Programa links para os slides de cada tópico, contendo todos os conhecimentos que precisa para realizar este laboratório.
+* Se tiver alguma dúvida, recorra ao [Moodle](https://secure.grupolusofona.pt/ulht/moodle/course/view.php?id=38119), onde no Programa existem links para os slides de cada tópico, contendo todos os conhecimentos que precisa para realizar este laboratório.
 
 ## Pré-requisitos
 * Deverá ter feito o [lab2](https://github.com/ULHT-PW-2020-21/pw-lab2).
@@ -22,8 +22,11 @@
 
 2. Crie a pasta `lab3`. 
 
+3. Atualize o `index.html` do seu website, incluindo agora um link para o Laboratório 3.
+
 3. Copie os conteúdos do `lab2` para a pasta `lab3`, que servirão de base para este laboratório.
 4. Neste laboratório irá criar mais duas páginas. Atualize o menu de todas as páginas HTML existentes com dois novos links: Quizz (na página `quizz.html`) e Comentários (na página `comentarios.html`). Coloque-os antes da página Home.
+
 
 # 2. Página com quizz
 
@@ -97,7 +100,6 @@ utilizadores e será capaz de fazer uma análise do seu website assim como uma v
 
 # 5. Submissão
 
-1. Atualize o `index.html` do seu website, incluindo agora um link para o Laboratório 3.
 2. Antes de o submeter, verifique que todos os links funcionam devidamente.
 3. Carregue a sua pasta no seu repositório Github através dos seguintes passos:
     1.  abra o processador de comandos e posicione-se dentro da pasta do seu repositório (`pw-labs-nomeapelido-numero`).
