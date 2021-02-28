@@ -31,13 +31,14 @@
 # 2. Página com Quizz
 
 1. Crie uma nova página HTML `quizz.html` que tenha o mesmo cabeçalho das restantes.
-2. Esta página irá ter um formulário com um quizz sobre a cidade. Deverá fazer perguntas de vários tipos sobre a cidade, o formulário sendo enviado para um endereço de email (quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta). 
-3. Deverá ter uma primeira área (elemento `fieldset`) para inserção de dados pessoais:
+2. Insira um elemento h3 com a palavra Quizz.
+3. Esta página irá ter um formulário com um quizz sobre a cidade. Deverá fazer perguntas de vários tipos sobre a cidade, o formulário sendo enviado para um endereço de email (quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta). 
+4. Deverá ter uma primeira área (elemento `fieldset`) para inserção de dados pessoais:
    * Nome
    * apelido
    * email
 
-4. Noutro(s) elemento(s) `fieldset` crie um quiz sobre a cidade, explorando de forma imaginativa os elementos `input`, `select`, `textarea`, `datalist`, `label`, `fieldset`, `output`. * Deverá usar todos os seguintes tipos de input (atributos `type`):
+5. Noutro(s) elemento(s) `fieldset` crie um quiz sobre a cidade, explorando de forma imaginativa os elementos `input`, `select`, `textarea`, `datalist`, `label`, `fieldset`, `output`. * Deverá usar todos os seguintes tipos de input (atributos `type`):
    * `text`
    * `radio`
    * `checkbox`
@@ -46,7 +47,7 @@
    * `number`
    * `range`
 
-5. Na totalidade dos elementos que utilizar deverá garantir que utiliza pelo menos uma vez cada um dos seguintes atributos de input:
+6. Na totalidade dos elementos que utilizar deverá garantir que utiliza pelo menos uma vez cada um dos seguintes atributos de input:
    * `value`
    * `placeholder`
    * `autocomplete`
@@ -67,15 +68,16 @@
 # 3. Página Comentários
 
 1. Crie uma nova página HTML `comentarios.html` que tenha o mesmo cabeçalho das restantes.
-2. Esta página servirá para recolher opiniões sobre o seu website assim como ideias de coisas a melhorar.
-3. Crie um formulário para recolher opiniões sobre o seu website, avaliando 10 critérios, tais como: conteúdo, originalidade, clareza, usabilidade. Para tal, utilize elementos `input` com atributos `range`, `checkbox` e `radio`. Deverá igualmente ter um elemento `textarea` que permita submeter sugestões de melhoria.
-4. Inclua um elemento escondido que identifica que se trata da opinião relativa ao website do laboratório 3. De facto, os laboratórios seguintes trarão várias melhorias ao seu website que resultarãm em comentários ainda melhores. 
-5. Quando desenvolver o *back-end*, será capaz de processar estes dados introduzidos por
+2. Insira um elemento h3 com a palavra Comentários.
+3. Esta página servirá para recolher opiniões sobre o seu website assim como ideias de coisas a melhorar.
+4. Crie um formulário para recolher opiniões sobre o seu website, avaliando 10 critérios, tais como: conteúdo, originalidade, clareza, usabilidade. Para tal, utilize elementos `input` com atributos `range`, `checkbox` e `radio`. Deverá igualmente ter um elemento `textarea` que permita submeter sugestões de melhoria.
+5. Inclua um elemento escondido que identifica que se trata da opinião relativa ao website do laboratório 3. De facto, os laboratórios seguintes trarão várias melhorias ao seu website que resultarãm em comentários ainda melhores. 
+6. Quando desenvolver o *back-end*, será capaz de processar estes dados introduzidos por
 utilizadores e será capaz de fazer uma análise do seu website assim como uma visão crítica deste. 
 
 # 4. Desenhos SVG
 
-1. Crie um SVG embutido no HTML com a wordcloud:
+1. Altere a wordcloud que criou por forma a que seja um SVG embutido no HTML com a wordcloud:
    * inclua a wordcloud que criou no Laboratório 2 (com o elemento `image`). 
    * Sobreponha na imagem da wordcloud elementos transparentes sobre agumas palavras, com hiperlinks para páginas do seu website (abra a imagem no Paint para extrair as coordenadas dos vértices dos poçígonos sobre cada palavra). 
    * Deverá usar uma área default que cubra todo a imagem (restantes palavras para as quais não inseriu links específicos), e que remete para a introdução do seu website. Garanta que esta se encontra "por baixo" dos restantes elementos.
