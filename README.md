@@ -62,9 +62,9 @@
    * `output`
 
 5. Inclua um elemento do tipo `submit` para submeter o seu formulário:
-* No atributo `method`especifique o método `post`
-* o atributo `action` deverá ter como valor um endero de email. Assim, receberá o quizz no seu email.
-* Quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta.
+   * No atributo `method`especifique o método `post`
+   * o atributo `action` deverá ter como valor um endero de email. Assim, receberá o quizz no seu email.
+   * Quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta.
 
 # 3. Página Comentários
 
@@ -78,15 +78,15 @@ utilizadores e será capaz de fazer uma análise do seu website assim como uma v
 # 4. Desenhos SVG
 
 1. Crie um SVG embutido no HTML com a wordcloud:
-* inclua a wordcloud que criou no Laboratório 2 (com o elemento `image`). 
-* Sobreponha na imagem da wordcloud elementos transparentes sobre agumas palavras, com hiperlinks para páginas do seu website (abra a imagem no Paint para extrair as coordenadas dos vértices dos poçígonos sobre cada palavra). 
-* Deverá usar uma área default que cubra todo a imagem (restantes palavras para as quais não inseriu links específicos), e que remete para a introdução do seu website. Garanta que esta se encontra "por baixo" dos restantes elementos.
+   * inclua a wordcloud que criou no Laboratório 2 (com o elemento `image`). 
+   * Sobreponha na imagem da wordcloud elementos transparentes sobre agumas palavras, com hiperlinks para páginas do seu website (abra a imagem no Paint para extrair as coordenadas dos vértices dos poçígonos sobre cada palavra). 
+   * Deverá usar uma área default que cubra todo a imagem (restantes palavras para as quais não inseriu links específicos), e que remete para a introdução do seu website. Garanta que esta se encontra "por baixo" dos restantes elementos.
 
 2. Crie um menu usando um SVG embutido no HTML ao estilo de uma wordcloud:
-* aplique efeitos a cada uma das palavras rodadas ou encurvadas, diferentes tamanhos, formas, cores, etc.
-* cada palavra deverá conter um elemento `animate` que deverá especificar como muda no tempo um determinado atributo. Explore o atributo `begin` também.
-* cada palavra deverá ter um hiperlink para a respetiva página.
-* coloque esta imagem no final de cada página do seu website.
+   * aplique efeitos a cada uma das palavras rodadas ou encurvadas, diferentes tamanhos, formas, cores, etc.
+   * cada palavra deverá conter um elemento `animate` que deverá especificar como muda no tempo um determinado atributo. Explore o atributo `begin` também.
+   * cada palavra deverá ter um hiperlink para a respetiva página.
+   * coloque esta imagem no final de cada página do seu website.
 
 3. Faça um desenho criativo embutido no HTML utilizando a maior diversidade de formas que consiga e utilizando os elementos animate, animateMotion e animateTransform.
 
